@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.language-list-container {
+  background-color: transparent;
+  border: none;
+  margin: 20px;
+  font-family: roboto;
+  font-size: 15px;
+  color: #0f172a;
+  font-weight: 500;
+  cursor: pointer;
+}
+.active-btn {
+  border: #0284c7 1px solid;
+  padding: 2px 15px;
+  border-radius: 15px;
+  color: #0284c7;
+}

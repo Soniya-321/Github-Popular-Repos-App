@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.github-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.app-heading {
+  font-size: 28px;
+  font-family: lobster;
+}
+.language-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.repos-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.failure-img {
+  height: 300px;
+  width: 300px;
+}
+.failure-heading {
+  font-size: 25px;
+}
+@media screen and (min-width: 768px) {
+  .app-heading {
+    font-size: 45px;
+  }
+  .failure-img {
+    height: 500px;
+    width: 500px;
+  }
+  .failure-heading {
+    font-size: 45px;
+  }
+}
